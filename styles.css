@@ -1,0 +1,40 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 80vh;
+  flex: 1 1 0;
+}
+
+.box {
+  /*min-width: 35px;
+  min-height: 35px;*/
+  background-color: white;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  margin: 0px;
+  flex: 1 1 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#resetButton {
+  margin-left: auto;
+  max-height: 50px;
+}
